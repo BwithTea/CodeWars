@@ -21,6 +21,3 @@ Each solution reflects not only the final code, but also the thought process and
 - ⚔️ **Platform:** [Codewars](https://www.codewars.com)  
 - 💪 **Goal:** Daily practice and steady improvement through consistent problem-solving.  
 
----
-
-## 📂 Repository Structure
