@@ -11,7 +11,7 @@ Each solution reflects not only the final code, but also the thought process and
 ---
 
 ## 💻 Tech Stack
-- **Languages:** JavaScript, Python (coming soon)
+- **Languages:** JavaScript, Java, Lua, Python
 - **Focus Areas:** Algorithms · Logic · Data Structures · Clean Code
 
 ---
