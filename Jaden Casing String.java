@@ -47,5 +47,41 @@ public class JadenCase {
 /* ========================
    Potential optimizations 
    ========================
-    
+
+   I didnt need to trim the string down initially or verify the index. 
+
+    ==        ==
+    New Solution
+	==		  ==
+	
+	public class JadenCase {
+
+	public String toJadenCase(String phrase) {
+    String newStr = "";
+      
+    if (phrase != null && phrase != "") {
+      String [] wordsArr = phrase.split(" ");
+      
+      for (int i = 0 ; i < wordsArr.length; i++) {
+        String word = wordsArr[i];
+        
+        char firstLetter = word.charAt(0);
+        char upperCaseLetter = Character.toUpperCase(firstLetter);
+        
+        String wordSubString = word.substring(1);
+        String combinedWord = upperCaseLetter + wordSubString;
+
+		newStr.trim();
+
+      }
+      return newStr;
+      
+    }
+    return null;
+
+	}
+
+}
+
+	
 */
