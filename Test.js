@@ -6,5 +6,6 @@ function addNums () {
     console.log(total);
   
   }
+  return total
 }
 
