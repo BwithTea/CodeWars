@@ -9,7 +9,7 @@ function addNums (numsArr) {
     console.log(total);
   
   }
-  return total
+  return total;
 }
 
 addNums(numsArr)
